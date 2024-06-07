@@ -9,4 +9,5 @@ const longestPalindrome = (s) => {
   }
   console.log(s.length > ans ? ans + 1 : ans);
 };
+
 longestPalindrome(s);
