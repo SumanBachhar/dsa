@@ -4,6 +4,7 @@ const s = "(]";
 const isValid = (s) => {
   let obj = { "(": ")", "{": "}", "[": "]" };
   let stack = [];
+
   for (let char of s) {
     if (obj[char]) {
       stack.push(char);
