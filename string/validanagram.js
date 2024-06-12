@@ -6,11 +6,11 @@ const isAnagram = (s, t) => {
 
   for (let i = 0; i < str.length; i++) {
     if (str[i] !== tst[i]) {
-      console.log(false);
+      return false;
     } else if (str.length !== tst.length) {
-      console.log(false);
+      return false;
     }
   }
-  console.log(true);
+  return true;
 };
-isAnagram(s, t);
+console.log(isAnagram(s, t));

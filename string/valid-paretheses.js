@@ -9,10 +9,10 @@ const isValid = (s) => {
     if (obj[char]) {
       stack.push(char);
     } else if (obj[stack.pop()] !== char) {
-      console.log(false);
+      return false;
     } else {
-      console.log(stack.length == 0);
+      return stack.length == 0;
     }
   }
 };
-isValid(s);
+console.log(isValid(s));

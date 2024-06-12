@@ -13,15 +13,15 @@ const findDuplicate = (nums) => {
 };
 findDuplicate(nums);
 
-var findDup = function (nums) {
+const findDup = (nums) => {
   let obj = {};
 
   for (let i of nums) {
     if (!obj[i]) {
       obj[i] = 1;
     } else {
-      console.log(i);
+      return i;
     }
   }
 };
-findDup(nums);
+console.log(findDup(nums));

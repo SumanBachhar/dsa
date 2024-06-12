@@ -9,6 +9,6 @@ const maxProfit = (prices) => {
     }
     profit = Math.max(profit, prices[i] - buyPrice);
   }
-  console.log(profit);
+  return profit;
 };
-maxProfit(prices);
+console.log(maxProfit(prices));
