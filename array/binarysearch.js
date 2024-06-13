@@ -12,6 +12,6 @@ const binarySearch = (nums, target) => {
       lo = mid;
     }
   }
-  console.log(nums[lo] == target ? lo : -1);
+  return nums[lo] == target ? lo : -1;
 };
-binarySearch(nums, target);
+console.log(binarySearch(nums, target));

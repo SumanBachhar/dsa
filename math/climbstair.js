@@ -17,6 +17,6 @@ const climbStairs = (n) => {
 
     secondStep = thirdStep;
   }
-  console.log(thirdStep);
+  return thirdStep;
 };
-climbStairs(n);
+console.log(climbStairs(n));
