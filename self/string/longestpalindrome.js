@@ -8,7 +8,7 @@ const longestPalindrome = (s) => {
     keys[char] = (keys[char] || 0) + 1;
     if (keys[char] % 2 == 0) ans += 2;
   }
-  console.log(s.length > ans ? ans + 1 : ans);
+  return s.length > ans ? ans + 1 : ans;
 };
 
-longestPalindrome(s);
+console.log(longestPalindrome(s));
