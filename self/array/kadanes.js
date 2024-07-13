@@ -1,3 +1,4 @@
+// maximum subarray
 const arr = [5, 4, -1, 7, 8];
 
 const maximumSubArray = (arr) => {
