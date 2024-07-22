@@ -1,4 +1,4 @@
-const s = "abccccdd";
+const s = "babad";
 
 const longestPalindrome = (s) => {
   let ans = 0;
