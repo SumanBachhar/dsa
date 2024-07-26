@@ -1,15 +1,11 @@
 let n = 5;
 const printPattern = (n) => {
-  for (let i = n; i >= 1; i--) {
+  for (let i = 1; i <= n; i++) {
     let str = "";
-    for (let j = i; j < n; j++) {
-      str += " ";
-    }
 
-    for (let k = 0; k < n; k++) {
+    for (let j = 0; j <= n; j++) {
       str += "*";
     }
-
     console.log(str);
   }
 };
